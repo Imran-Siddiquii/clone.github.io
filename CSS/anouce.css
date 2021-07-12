@@ -1,0 +1,192 @@
+.mainContent{
+    width: 80%;
+    border: 0px solid blue;
+    margin:0% 10%;
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 60% 50%;
+}
+.content{
+    width: 100%;
+    
+    height: 500px;
+    border: 0px solid red;
+    display: grid;
+    /* grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr; */
+}
+.announceContent{
+    width: 100%;
+    /* margin-left: 10%; */
+    padding-top: 5%;
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 100px;
+    height: max-content;
+
+}
+
+.announce{
+    font-size: 30px;
+        font-weight: 900;
+        margin-top:8%;
+        padding-left: 0;
+        margin-right:0px;
+        text-transform:uppercase;
+    }
+    .line{
+        display: block;
+           padding-right: 20px;
+           margin-top: 48px;
+           border: 0px solid red;
+           
+    
+           /* align-items: end;
+           justify-content: end;     */
+        }
+        .float{
+           width: 100%;
+            display: grid;
+            grid-template-rows: 300px;
+            grid-template-columns: 50% 50%;
+            padding-top: 0%;
+            margin-top: 0px;
+
+        }
+        .contentImg{
+            border: 0px inset blue;
+            padding-top:10px;
+            padding-right: 10px;
+            
+        }
+
+        .contentImg img{
+            border-top-left-radius: 5px;
+            padding-bottom: 10px;
+            border-top-right-radius: 5px;
+        } 
+
+    .floatingLink{
+                border: 0px inset red;
+                padding-left: 0px;   
+    }
+    .quick{
+        /* background-image: url(Main_Building.jpg); */
+        background-image: url(Main_Building.jpg);
+        background-size: cover;
+        width: 80%;
+        height: 110%;
+
+    }
+    .quickImg{
+        background-color: rgba(255, 99, 71,0.80);
+        height:95vh;
+        padding-top: 0;
+    }
+    .clas h1{
+        padding: 10%;
+        margin-top: 0;
+    }   
+
+    .quickLink a{
+        display: block;
+        margin:6%;
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        /* font-weight: bold; */
+        padding-left: 10%;
+    }
+    .quickLink hr{
+        display: block;
+        margin-left: 16%;
+        margin-right: 10%;
+        width: 70%;
+    }
+
+    .exmaInfo{
+        width: 45%;
+        margin-top: 2%;
+         margin-left:10%;
+        background-color: #ECF0F1;
+        font-size: large;
+        height: 20vh;
+        padding: 12px;;
+    }
+    .exmaInfo h4{
+        color: red;
+        animation: animate 1s ease-in-out infinite;
+        padding-top: 5px;
+    }
+    @keyframes animate {
+        0%,100%{
+            color:red;
+        }
+            50%{
+                color: black;
+            }
+    }
+    @media(max-width:450px) {
+        .mainContent{
+            width: 100%;
+            border: 0px solid blue;
+            margin-top:10%;
+            margin-left: 0px;
+            display: grid;
+            grid-template-rows: 500px 500px;
+            grid-template-columns: 100%;
+        }
+        .quick{
+             width: 100%;
+            margin-top: 80%;
+            
+        }
+        .quickImg{
+            height:87vh;
+            
+        }
+        .clas h1{
+            padding: 8%;
+        }
+        .float{
+            width: 100%;
+            display: grid;
+            grid-template-rows: 300px 300px;
+            grid-template-columns: 100%;
+            padding-top: 0%;
+            margin-top: 0px;
+
+        }
+        .contentImg{
+            
+            border: 0px inset blue;
+            padding-top:10px;
+            padding-right: 10px;
+            
+        }
+
+        .contentImg img{
+                 padding-left: 10px;
+            } 
+
+    .floatingLink{
+                margin-top: 20%;
+                padding-left: 10px;
+    }
+    .float, .contentImg p{
+        padding-left: 10px;
+    }   
+    .float, .contentImg a{
+        padding-left: 10px;
+    }
+    .exmaInfo{
+        width: 90%;
+        margin-top: 120%;
+         margin-left:5%;
+        /* background-color: #ECF0F1;
+        font-size: large;
+        height: 20vh;
+        padding: 12px;; */
+    }       
+    }

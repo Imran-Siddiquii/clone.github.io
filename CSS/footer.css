@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.footer{
+    display: grid;
+    width: 100%;
+    color: hsla(0, 0%, 100%, 0.712);;
+    background-color: rgba(0, 0, 0,0.94);
+    grid-template-rows: min-content;
+    grid-template-columns: 43% 20% 37%;
+}
+.ftAbout{
+    padding: 10% 17%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+       
+}
+.ftAbout p{
+    padding-top: 10px;
+}
+
+
+.useFul h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    padding-top: 18%;
+    color: white;
+    padding-bottom: 3%;
+    /* border: 1px solid red; */
+    /* border-bottom: 2px solid linear-gradient(tomato,red); */
+    border-width: none;
+    margin-bottom:15%;
+}
+.useFul a{
+    display: block;
+    text-decoration:none;
+    color: hsla(0, 0%, 100%, 0.712);
+    font-size: small;
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.useFul a:hover{
+    color: white;
+}   
+
+.newsletter h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    padding-top: 10%;
+    color: white;
+    padding-bottom: 1%;
+    /* border:1px solid red; */
+    /* border-bottom: 2px solid linear-gradient(tomato,red); */
+    border-width: none;
+    margin-bottom:7%;
+}
+.newsletter input{
+    width:70%;
+    height: 42px;
+    border-radius: 5px;
+    margin-bottom: 5%;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+  
+input:focus{
+    background-color: black;
+    color: white;
+}
+.newsletter button{
+    background-color: tomato;
+    color: white;
+    padding:10px;
+    margin-bottom: 15px;
+}
+button:hover{
+    background-color: black;
+}
+
+.newsletter a{
+    display: inline-block;
+    /* background-color: tomato; */
+    color: tomato;
+    
+    margin-top: 5%;
+    margin-right:4%;
+    font-size: Xx-large;
+}
+footer{
+    text-align: center;
+    padding:1.5%;
+    color: hsla(0, 0%, 100%, 0.712);
+    font-size: small;
+     font-family: 'Open Sans', sans-serif;
+     background-color: rgba(0, 0, 0,0.85);
+}
+
+@media(max-width:450px){
+    .footer{
+        display: grid;
+        width: 100%;
+        color: hsla(0, 0%, 100%, 0.712);;
+        background-color: rgba(0, 0, 0,0.94);
+        grid-template-rows: 450px 350px 300px;
+        grid-template-columns: 100%;
+    }
+    .useFul{
+        padding-left: 15px;
+    }
+    .ftAbout{
+        padding:3%;
+    }
+    .useFul h3{
+        padding-top: 1%;
+        margin-bottom: 5%;
+    }
+   .newsletter{
+       padding-left: 15px;
+   }
+   footer{
+       height: 6vh;
+   }       
+}

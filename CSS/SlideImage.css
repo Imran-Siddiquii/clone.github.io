@@ -1,0 +1,26 @@
+#backImg{ 
+  border: 0px solid red;
+  margin-top: 30px;
+  padding: 0;
+  width: 100%;
+  /* margin-left: 4%; */
+  height: 75vh;
+  /* border-radius: 5%; */
+  /* background-size: cover; */
+  
+}
+#backImg img{
+  height: 75vh;
+}
+@media(max-width:450px){
+  #backImg{
+  width:100%;
+  height: 40vh;
+  margin-top: 10%;
+ 
+}
+#backImg img{
+  height: 38vh;
+}
+
+}
